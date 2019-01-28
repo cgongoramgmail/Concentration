@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C922FEAC21FF62240087D3F1 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922FEAB21FF62240087D3F1 /* Concentration.swift */; };
+		C922FEAE21FF62E60087D3F1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922FEAD21FF62E60087D3F1 /* Card.swift */; };
 		C9E1E27021FAA53300B507F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1E26F21FAA53300B507F2 /* AppDelegate.swift */; };
 		C9E1E27221FAA53300B507F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1E27121FAA53300B507F2 /* ViewController.swift */; };
 		C9E1E27521FAA53300B507F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E1E27321FAA53300B507F2 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C922FEAB21FF62240087D3F1 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		C922FEAD21FF62E60087D3F1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		C9E1E26C21FAA53300B507F2 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E1E26F21FAA53300B507F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9E1E27121FAA53300B507F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				C9E1E26F21FAA53300B507F2 /* AppDelegate.swift */,
 				C9E1E27121FAA53300B507F2 /* ViewController.swift */,
 				C9E1E27321FAA53300B507F2 /* Main.storyboard */,
+				C922FEAB21FF62240087D3F1 /* Concentration.swift */,
+				C922FEAD21FF62E60087D3F1 /* Card.swift */,
 				C9E1E27621FAA53500B507F2 /* Assets.xcassets */,
 				C9E1E27821FAA53500B507F2 /* LaunchScreen.storyboard */,
 				C9E1E27B21FAA53500B507F2 /* Info.plist */,
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					C9E1E26B21FAA53300B507F2 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -137,6 +144,8 @@
 			files = (
 				C9E1E27221FAA53300B507F2 /* ViewController.swift in Sources */,
 				C9E1E27021FAA53300B507F2 /* AppDelegate.swift in Sources */,
+				C922FEAC21FF62240087D3F1 /* Concentration.swift in Sources */,
+				C922FEAE21FF62E60087D3F1 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +298,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cgongoram.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -307,7 +316,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cgongoram.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
